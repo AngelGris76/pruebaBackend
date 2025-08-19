@@ -1,8 +1,8 @@
-//import { loadEnvFile } from 'node:process';
+import { loadEnvFile } from 'node:process';
 import fastify from 'fastify';
 import cors from '@fastify/cors';
 
-//loadEnvFile();
+loadEnvFile();
 
 const serverPort = process.env.PORT || 8080;
 
@@ -14,6 +14,11 @@ server.register(cors, { origin: '*' });
 server.get('/courses', async (request, reply) => {
 	reply.code(200);
 	reply.send({ message: 'answer from backend' });
+});
+
+server.get('/create-preference', async (request, reply) => {
+	reply.code(200);
+	reply.send({ message: 'message from create-preference' });
 });
 
 server.listen({ port: serverPort }, () => {
