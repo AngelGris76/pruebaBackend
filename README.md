@@ -16,7 +16,7 @@ Los avances se podran recorrer por los distintos commits\
 [ * ] Funciona en vercel con el archivo principal en el raiz?\
 [ * ] Cambiando el endpoint de / a /courses, tambien funciona en Vercel\
 [ * ] Two endpoint server\
-[ ] Funciona en vercel con el archivo principal en el raiz?\
-[ ] Cambiar el archivo principal a src\
+[ * ] Funciona en vercel con el archivo principal en el raiz?\
+[ * ] Cambiar el archivo principal a src\
 [ ] Funciona single endpoint en vercel?\
 [ ] Funciona two endpoint en vercel?
