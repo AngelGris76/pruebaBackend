@@ -9,10 +9,11 @@
 **Primero todo en JS, luego se ira agregando TS**\
 
 Usando fastify y fastify/cors\
-Los avances se podran recorrer por los distintos commits
+Los avances se podran recorrer por los distintos commits\
+*Para que funcione en vercel no usar loadEnvFile*
 
-[*] Single endpoint server\
-[ ] Funciona en vercel con el archivo principal en el raiz?\
+[ * ] Single endpoint server\
+[ * ] Funciona en vercel con el archivo principal en el raiz?\
 [ ] Two endpoint server\
 [ ] Funciona en vercel con el archivo principal en el raiz?\
 [ ] Cambiar el archivo principal a src\

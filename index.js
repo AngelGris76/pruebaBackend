@@ -9,7 +9,9 @@ const serverPort = process.env.PORT || 8080;
 const server = fastify({ logger: false });
 server.register(cors, { origin: '*' });
 
-server.get('/', async (request, reply) => {
+//Primeramente se probo en /
+//Luego se probo en /courses
+server.get('/courses', async (request, reply) => {
 	reply.code(200);
 	reply.send({ message: 'answer from backend' });
 });
