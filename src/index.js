@@ -16,10 +16,10 @@ server.get('/courses', async (request, reply) => {
 	reply.send({ message: 'answer from backend' });
 });
 
-/* server.get('/create-preference', async (request, reply) => {
+server.get('/create-preference', async (request, reply) => {
 	reply.code(200);
 	reply.send({ message: 'message from create-preference' });
-}); */
+});
 
 server.listen({ port: serverPort }, () => {
 	console.log('listen on port', serverPort);
