@@ -11,7 +11,7 @@
 Usando fastify y fastify/cors\
 Los avances se podran recorrer por los distintos commits
 
-[ ] Single endpoint server\
+[*] Single endpoint server\
 [ ] Funciona en vercel con el archivo principal en el raiz?\
 [ ] Two endpoint server\
 [ ] Funciona en vercel con el archivo principal en el raiz?\
