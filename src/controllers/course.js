@@ -1,9 +1,23 @@
+import { CourseModel } from '../models/course.js';
+
 export class CourseController {
 	static getAll = async (request, reply) => {
-		reply.send({ message: 'message from getAll' });
+		const response = await CourseModel.getAll();
+		if (response.error) {
+			reply.code(404);
+		} else {
+			reply.code(200);
+		}
+		reply.send(response);
 	};
 	static getById = async (request, reply) => {
 		const id = request.params.id;
-		reply.send({ message: `message from getByID with id= ${id}` });
+		const response = await CourseModel.getById({ id });
+		if (response.error) {
+			reply.code(404);
+		} else {
+			reply.code(200);
+		}
+		reply.send(response);
 	};
 }

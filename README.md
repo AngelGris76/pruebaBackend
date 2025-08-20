@@ -20,5 +20,7 @@ Los avances se podran recorrer por los distintos commits\
 [ * ] Cambiar el archivo principal a src\
 [ * ] Funciona single endpoint en vercel?\
 [ * ] Funciona two endpoint en vercel?\
-[ * ] Funciona two endpoint en archivos diferentes en vercel?
-[ * ] Funciona agregando carpeta y archivo para controladores
+[ * ] Funciona two endpoint en archivos diferentes en vercel?\
+[ * ] Funciona agregando carpeta y archivo para controladores\
+[ * ] Funciona agregando carpeta y archivo para controladores en vercel
+[ * ] Agregado modelo de cursos y un json como base de datos
