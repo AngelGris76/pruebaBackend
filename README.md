@@ -19,4 +19,6 @@ Los avances se podran recorrer por los distintos commits\
 [ * ] Funciona en vercel con el archivo principal en el raiz?\
 [ * ] Cambiar el archivo principal a src\
 [ * ] Funciona single endpoint en vercel?\
-[ * ] Funciona two endpoint en vercel?
+[ * ] Funciona two endpoint en vercel?\
+[ * ] Funciona two endpoint en archivos diferentes en vercel?
+[ * ] Funciona agregando carpeta y archivo para controladores
