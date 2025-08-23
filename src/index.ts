@@ -1,10 +1,10 @@
-import { loadEnvFile } from 'node:process';
+//import { loadEnvFile } from 'node:process';
 import fastify from 'fastify';
 import cors from '@fastify/cors';
 import { course } from './routes/courses.js';
 import { preference } from './routes/preference.js';
 
-loadEnvFile();
+//loadEnvFile();
 
 const serverPort = Number(process.env.PORT) ?? 8080;
 const server = fastify({ logger: false });
