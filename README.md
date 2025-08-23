@@ -22,5 +22,7 @@ Los avances se podran recorrer por los distintos commits\
 [ * ] Funciona two endpoint en vercel?\
 [ * ] Funciona two endpoint en archivos diferentes en vercel?\
 [ * ] Funciona agregando carpeta y archivo para controladores\
-[ * ] Funciona agregando carpeta y archivo para controladores en vercel
-[ * ] Agregado modelo de cursos y un json como base de datos
+[ * ] Funciona agregando carpeta y archivo para controladores en vercel\
+[ * ] Funciona agregado modelo de cursos y un json como base de datos\
+[ * ] Funciona agregado modelo de cursos y un json como base de datos en vercel\
+[ * ] Pasado a typescript index, controllers, models, routes
