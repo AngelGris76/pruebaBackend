@@ -12,6 +12,7 @@ Usando fastify y fastify/cors\
 Los avances se podran recorrer por los distintos commits\
 *Para que funcione en vercel no usar loadEnvFile*
 
+
 [ * ] Single endpoint server\
 [ * ] Funciona en vercel con el archivo principal en el raiz?\
 [ * ] Cambiando el endpoint de / a /courses, tambien funciona en Vercel\
@@ -25,4 +26,23 @@ Los avances se podran recorrer por los distintos commits\
 [ * ] Funciona agregando carpeta y archivo para controladores en vercel\
 [ * ] Funciona agregado modelo de cursos y un json como base de datos\
 [ * ] Funciona agregado modelo de cursos y un json como base de datos en vercel\
-[ * ] Pasado a typescript index, controllers, models, routes
+[ * ] Pasado a typescript index, controllers, models, routes\
+[ * ] Funciona en vercel con typescript
+
+*vercel.json*
+
+```js
+{
+	"version": 2,
+	"builds": [{ "src": "src/index.ts", "use": "@vercel/node" }],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "src/index.ts"
+		}
+	]
+}
+```
+
+Corroborar que "builds" => "src" apunte a la ubicacion del archivo principal\
+Corroborar que "routes" => "dest" apunte a la ubicacion del archivo principal, de desarrollo. No donde quedaria el archivo compilado

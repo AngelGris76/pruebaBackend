@@ -1,8 +1,8 @@
 //import { loadEnvFile } from 'node:process';
 import fastify from 'fastify';
 import cors from '@fastify/cors';
-import { course } from './routes/courses.js';
-import { preference } from './routes/preference.js';
+import { course } from './routes/courses.ts';
+import { preference } from './routes/preference.ts';
 
 //loadEnvFile();
 

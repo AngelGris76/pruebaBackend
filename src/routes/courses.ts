@@ -1,4 +1,4 @@
-import { CourseController } from '../controllers/course.js';
+import { CourseController } from '../controllers/course.ts';
 
 import type { FastifyInstance, FastifyServerOptions } from 'fastify';
 

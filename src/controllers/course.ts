@@ -1,6 +1,6 @@
 import type { FastifyRequest, FastifyReply } from 'fastify';
-import { CourseModel } from '../models/course.js';
-import type { CourseId } from '../@types/types.js';
+import { CourseModel } from '../models/course.ts';
+import type { CourseId } from '../@types/types.ts';
 
 export class CourseController {
 	static getAll = async (_request: FastifyRequest, reply: FastifyReply) => {

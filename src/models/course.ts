@@ -1,4 +1,4 @@
-import type { CourseType, CourseId } from '../@types/types.js';
+import type { CourseType, CourseId } from '../@types/types.ts';
 import COURSES from './course.json' with { type: 'json' };
 
 const allCourse: CourseType[] = COURSES as CourseType[];
